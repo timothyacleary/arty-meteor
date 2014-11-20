@@ -11,4 +11,5 @@ ian:accounts-ui-bootstrap-3
 accounts-password
 underscore
 sacha:spin
+iron:router
 
