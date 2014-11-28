@@ -1,16 +1,24 @@
 if (Interventions.find().count() === 0) {
-	Interventions.insert({
+	lungCancerId = Interventions.insert({
 		title: "Lung Cancer Study",
-		enrollmentGoal: 30
+		enrollmentGoal: 30,
+		totalEnrollment: 0
 	});
 
-	Interventions.insert({
+	prostateCancerId = Interventions.insert({
 		title: "Prostate Cancer Study",
-		enrollmentGoal: 20
+		enrollmentGoal: 20,
+		totalEnrollment: 0
 	});
 
-	Interventions.insert({
+	baldderCancerId = Interventions.insert({
 		title: "Bladder Cancer Study",
-		enrollmentGoal: 60
+		enrollmentGoal: 60,
+		totalEnrollment: 0
+	});
+
+	Patients.insert({
+		name: 'Tim Cleary',
+		email: 'timothyacleary@gmail.com'
 	});
 }
