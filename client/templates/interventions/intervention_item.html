@@ -1,6 +1,8 @@
 <template name="interventionItem">
-	<div class="row">
-		<h1>{{title}}</h1>
-		<p>Enrollment goal: {{enrollmentGoal}}</p>
+	<div class="intervention">
+		<div class="intervention-content">
+			<h3><a href="{{pathFor 'interventionPage'}}">{{title}}</a></h3>
+			<p>Enrollment goal: {{enrollmentGoal}}</p>
+		</div>
 	</div>
 </template>
